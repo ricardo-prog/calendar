@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./dist/styles/styles.css">
+
+    <title>Calendar</title>
+</head>
+<body>
+
+
+<h1 class="title">Calendario</h1>
+
+<div class="calendar">
+    <div class="day">
+        <button class="days">Today</button>
+        <button class="days">Tomorrow</button>
+        <button class="days">In 2 days</button>
+    </div>
+
+    <div class="calendar__info">
+       <button class="button">
+            <div class="calendar__prev" id="prev-month">&#9664;</div>
+        </button>
+        <div class="calendar__month" id="month"></div>
+        <div class="calendar__year" id="year"></div>
+        <button class="button">
+            <div class="calendar__next" id="next-month">&#9654;</div>
+        </button>
+      
+    </div>
+    
+    <div class="calendar__week">
+        <div class="calendar__day calendar__item">Lunes</div>
+        <div class="calendar__day calendar__item">Martes</div>
+        <div class="calendar__day calendar__item">Miercoles</div>
+        <div class="calendar__day calendar__item">Jueves</div>
+        <div class="calendar__day calendar__item">Viernes</div>
+        <div class="calendar__day calendar__item">Sabado</div>
+        <div class="calendar__day calendar__item">Domingo</div>
+    </div>
+    
+
+    <div class="calendar__dates" id="dates"></div>
+
+<div class="btn">
+    <div class="cancelar">
+        <button class="btn2">Remove</button>
+    </div>
+    <div class="remove">
+        <button class="btn1">Done</button>
+    </div>
+</div>
+
+</div>
+
+<script src="./dist/CalendarUI.js"></script>
+</body>
+</html>
